@@ -10,24 +10,24 @@ files:
   visible: true
   placeholders:
   - offset: 57
-    length: 12
+    length: 33
     placeholder_text: '...]  # TODO'
     initial_state:
       length: 12
       offset: 57
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: word.capitalize() for word in words]
-  - offset: 123
-    length: 12
+  - offset: 144
+    length: 30
     placeholder_text: '...)  # TODO'
     initial_state:
       length: 12
       offset: 123
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: map(str.capitalize, words))
   text: |
     def list_comprehension(words: list) -> list:
@@ -57,5 +57,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 21 Apr 2022 17:44:49 UTC
 record: -1

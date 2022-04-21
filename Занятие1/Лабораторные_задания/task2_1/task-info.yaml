@@ -9,14 +9,14 @@ files:
   visible: true
   placeholders:
   - offset: 57
-    length: 56
+    length: 88
     placeholder_text: '...)  # TODO отфильтровать только буквы нижнего регистра'
     initial_state:
       length: 56
       offset: 57
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: filter(str.islower, camel_case_str))
   text: |
     def task(camel_case_str: str) -> str:
@@ -30,5 +30,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 21 Apr 2022 17:51:26 UTC
 record: -1

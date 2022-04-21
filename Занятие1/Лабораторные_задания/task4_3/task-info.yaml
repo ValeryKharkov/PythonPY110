@@ -12,14 +12,14 @@ files:
   visible: true
   placeholders:
   - offset: 69
-    length: 42
+    length: 51
     placeholder_text: '...:  # TODO повторить переменную a 4 раза'
     initial_state:
       length: 42
       offset: 69
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'repeat(a, 4):'
   text: |
     from itertools import repeat
@@ -37,5 +37,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 21 Apr 2022 18:04:06 UTC
 record: -1

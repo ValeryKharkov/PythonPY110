@@ -13,14 +13,14 @@ files:
   visible: true
   placeholders:
   - offset: 104
-    length: 50
+    length: 67
     placeholder_text: '...  # TODO поэлементно объединить numbers и chars'
     initial_state:
       length: 50
       offset: 104
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'zip(numbers, chars):'
   text: |
     def task():
@@ -36,5 +36,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 21 Apr 2022 18:05:00 UTC
 record: -1

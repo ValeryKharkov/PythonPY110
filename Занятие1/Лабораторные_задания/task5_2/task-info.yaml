@@ -12,14 +12,14 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 52
+    length: 98
     placeholder_text: '...  # TODO  вернуть список температур по Фаренгейту'
     initial_state:
       length: 52
       offset: 64
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'list(map(lambda temp: temp * (9 / 5) + 32, temp_tuple))'
   text: |
     def task() -> list:
@@ -31,5 +31,8 @@ files:
     if __name__ == "__main__":
         print(task())
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 21 Apr 2022 18:11:33 UTC
 record: -1

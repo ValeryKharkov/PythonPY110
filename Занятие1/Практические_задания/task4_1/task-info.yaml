@@ -20,24 +20,24 @@ files:
   visible: true
   placeholders:
   - offset: 343
-    length: 56
+    length: 75
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
       length: 56
       offset: 343
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: next(iterator_numbers))
-  - offset: 528
-    length: 56
+  - offset: 547
+    length: 75
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
       length: 56
       offset: 528
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: next(iterator_numbers))
   text: |
     from itertools import count
@@ -62,5 +62,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 21 Apr 2022 18:12:33 UTC
 record: -1
