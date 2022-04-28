@@ -15,3 +15,4 @@ if __name__ == "__main__":
     except StopIteration:
         print("Генератор закончился")
         print_exc()
+
