@@ -76,7 +76,7 @@ files:
       length: 51
       offset: 79
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       with open(input_filename) as f:
